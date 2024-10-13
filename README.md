@@ -1,5 +1,14 @@
-# Project Rental Mobil Sederhana
+# Project Point Of Sales
 Aplikasi POS Kasir Berbasis Web Yang Di Bangun Menggunakan Laravel 11 Dengan Template AdminLTE
+
+## Features
+-   Management User serta Member
+-   Management Kategori, Produk, serta Supplier
+-   Management Transaksi
+-   Management Toko
+-   Melihat Laporan Transaksi
+-   Export PDF Laporan Transaksi
+-   Print Nota Transaksi
   
 ## Interfaces
 - Dashboard Admin
