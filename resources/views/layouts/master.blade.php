@@ -57,7 +57,6 @@
                     @section('breadcrumb')
                         <li><a href="{{ url('/') }}"><i class="fa fa-dashboard"></i> Home</a></li>
                     @show
-
                 </ol>
             </section>
 

@@ -63,6 +63,7 @@ class User extends Authenticatable
         ];
     }
 
+    // Menampilkan seluruh user kecuali admin
     public function scopeIsNotAdmin($query)
     {
         return $query->where('level', '!=', 1);

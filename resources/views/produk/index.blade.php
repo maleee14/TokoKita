@@ -133,7 +133,7 @@
             $('#modal-form form')[0].reset();
             $('#modal-form form').attr('action', url);
             $('#modal-form [name=_method]').val('post');
-            $('#modal-form [name=nama_kategori]').focus();
+            $('#modal-form [name=nama_produk]').focus();
         }
 
         function editForm(url) {

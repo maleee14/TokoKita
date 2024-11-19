@@ -82,7 +82,7 @@ class PembelianController extends Controller
         $detail = PembelianDetail::where('id_pembelian', $pembelian->id_pembelian)->get();
         foreach ($detail as $item) {
             $produk = Produk::find($item->id_produk);
-            $produk->stock -= $item->jumlah;
+            $produk->stock += $item->jumlah;
             $produk->update();
         }
 
